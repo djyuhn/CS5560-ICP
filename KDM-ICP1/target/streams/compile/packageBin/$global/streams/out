@@ -1,0 +1,13 @@
+[info] Packaging C:\dev\CS5560-ICP\KDM-ICP1\target\scala-2.11\kdm-icp1_2.11-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Main$.class
+[debug] 	  C:\dev\CS5560-ICP\KDM-ICP1\target\scala-2.11\classes\Main$.class
+[debug] 	main$HelloWorld$delayedInit$body.class
+[debug] 	  C:\dev\CS5560-ICP\KDM-ICP1\target\scala-2.11\classes\main$HelloWorld$delayedInit$body.class
+[debug] 	Main.class
+[debug] 	  C:\dev\CS5560-ICP\KDM-ICP1\target\scala-2.11\classes\Main.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  C:\dev\CS5560-ICP\KDM-ICP1\target\scala-2.11\classes\Main$delayedInit$body.class
+[debug] 	main$HelloWorld$.class
+[debug] 	  C:\dev\CS5560-ICP\KDM-ICP1\target\scala-2.11\classes\main$HelloWorld$.class
+[info] Done packaging.
