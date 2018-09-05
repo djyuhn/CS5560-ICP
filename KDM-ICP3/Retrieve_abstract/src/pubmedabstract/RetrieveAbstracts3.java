@@ -24,7 +24,7 @@ public class RetrieveAbstracts3 {
 	    {
 	        try
 	        {
-	        	File file=new File("new_data_alzimer's//Just_Ids1");
+	        	File file=new File("depression_treatment_abstracts/ids.txt");
 	        	BufferedReader bufferedReader=new BufferedReader(new FileReader(file));
 	        	String dd;
 	        	String IDs = null;
@@ -39,10 +39,11 @@ public class RetrieveAbstracts3 {
 					}
 	        		i++;
 	        		k++;
-	        		if(i==200)
+	        		if(i==11) // Retrieved the 10 abstract ids from the text file
 	        		{
-	        		URL url = new URL("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id="+IDs+"&retmode=xml&rettype=medline");
-		            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+	        		URL url = new URL("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=" + IDs + "&retmode=xml&rettype=abstract");
+	        		System.out.println(url);
+	        		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 		            conn.setRequestMethod("GET");
 		            conn.setRequestProperty("Accept", "application/xml");
 		 
@@ -50,15 +51,15 @@ public class RetrieveAbstracts3 {
 		            {
 		                throw new RuntimeException("Failed : HTTP error code : " + conn.getResponseCode());
 		            }
-		 
+
 		            BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
 		           String d;
-		           File f = new File("new_data_alzimer's//abstracts//"+j+".xml");
+		           File f = new File("new_depression_treatment_abstracts/abstracts.xml");
 		            FileWriter fw= new FileWriter(f.getAbsoluteFile());
 		            BufferedWriter bw=new BufferedWriter(fw); 
 		           while((d=br.readLine())!=null)
 		           {
-		           	           // System.out.println(d);
+		           	           System.out.println(d);
 		           	            bw.append(d);
 		           }
 		          

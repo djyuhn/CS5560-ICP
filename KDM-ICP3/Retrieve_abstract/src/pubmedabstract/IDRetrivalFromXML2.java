@@ -24,7 +24,7 @@ public class IDRetrivalFromXML2 {
 //			{
 			
 			
-			 File file = new File("new_data_//ids.xml");
+			 File file = new File("depression_treatment_abstracts/ids.xml");
 		         if(file.exists())
 			  {
 			  DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -34,7 +34,7 @@ public class IDRetrivalFromXML2 {
 			  System.out.println("Root element " + doc.getDocumentElement().getNodeName());
 			  NodeList nodeLst = doc.getElementsByTagName("IdList");
 			  System.out.println("Information of all employees");
-			  PrintStream outPrintStream=new PrintStream(new File("new_data_alzimer's//Just_Ids"));
+			  PrintStream outPrintStream=new PrintStream(new File("new_depression_treatment_abstracts/ids.xml"));
 		      
 			  for (int s = 0; s < nodeLst.getLength(); s++) {
 

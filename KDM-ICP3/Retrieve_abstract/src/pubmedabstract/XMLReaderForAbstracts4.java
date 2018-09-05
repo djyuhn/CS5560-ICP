@@ -14,6 +14,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 
 public class XMLReaderForAbstracts4 {
 
@@ -22,9 +24,8 @@ public class XMLReaderForAbstracts4 {
 		try {
 //			for(int i=2014;i<2015;i++)
 //			{
-			
-			
-			 File file = new File("new_data_alzimer's//abstract//1.xml");
+            BufferedWriter writer = new BufferedWriter(new FileWriter("new_depression_treatment_abstracts/abstracts.txt"));
+			 File file = new File("new_depression_treatment_abstracts/abstracts.xml");
 		         if(file.exists())
 			  {
 			  DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -55,16 +56,21 @@ public class XMLReaderForAbstracts4 {
 				      	  NodeList abstract2=abstractElement.getElementsByTagName("AbstractText");
 				      	 for(int t1=0;t1<fstNmElmntLst.getLength();t1++)
 					      {
+                             StringBuilder text = new StringBuilder();
 					       	 Element abstrElement = (Element) abstract2.item(t1);
-					      	  NodeList fstNm = abstrElement.getChildNodes();
-					      	  
-				      	  System.out.println((((Node) fstNm.item(0)).getNodeValue()));
+					      	 NodeList fstNm = abstrElement.getChildNodes();
+					      	 text.append(fstNm.item(0).getNodeValue());
+                              writer.write(text.toString());
+                              writer.write("\n");
+					      	 System.out.println(text.toString());
+
 					      }
 					}
-			      }  
+			      }
 			      System.out.println("Done");
 			    }
 			  }
+                  writer.close();
 			  
 			}
 //			}
