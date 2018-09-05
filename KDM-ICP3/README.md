@@ -12,7 +12,7 @@ Before starting this ICP, the abstracts for the 10 papers needed to be extracted
 
   - Use the [efetch xml example](https://dataguide.nlm.nih.gov/eutilities/utilities.html#efetch) from Pubmed and alter to get the abstract.
 
-  ![Abstract_extraction_xml](../docs/KDM-ICP3/Abstract_extraction_xml.gif)
+    ![Abstract_extraction_xml](../docs/KDM-ICP3/Abstract_extraction_xml.gif)
 
 - From the XML file, put the abstracts into a text file for easier readability.
 
