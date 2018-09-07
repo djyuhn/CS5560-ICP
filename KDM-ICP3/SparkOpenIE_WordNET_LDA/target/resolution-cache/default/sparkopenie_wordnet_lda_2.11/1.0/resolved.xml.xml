@@ -4,7 +4,7 @@
 		module="sparkopenie_wordnet_lda_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180902173121"
+		publication="20180906131844"
 	>
 		<description>
 		SparkOpenIE_WordNET_LDA
