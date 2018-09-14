@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparktransformationactions.iml" filepath="$PROJECT_DIR$/.idea/modules/sparktransformationactions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkTransformationActions.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkTransformationActions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparktransformationactions-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sparktransformationactions-build.iml" />
     </modules>
   </component>
