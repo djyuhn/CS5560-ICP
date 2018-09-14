@@ -7,7 +7,7 @@ object SparkTransformation {
   def main(args: Array[String]): Unit = {
 
 
-    System.setProperty("hadoop.home.dir", "D:\\winutils");
+    System.setProperty("hadoop.home.dir", "C:\\winutils")
 
     val sparkConf = new SparkConf().setAppName("SparkTransformation").setMaster("local[*]")
 
@@ -15,7 +15,7 @@ object SparkTransformation {
 
     val nums = sc.parallelize(Array(1, 2, 3))
     // Pass each element through a function
-    val squares = nums.map(x => (x * x)) // => {1, 4, 9}
+    val squares = nums.map(x => x * x) // => {1, 4, 9}
 
     // Keep elements passing a predicate
     val even = squares.filter(x => x % 2 == 0) // => {4}

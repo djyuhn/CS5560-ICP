@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object SparkKeyValue {
   def main(args: Array[String]): Unit = {
 
-    System.setProperty("hadoop.home.dir", "D:\\winutils");
+    System.setProperty("hadoop.home.dir", "C:\\winutils")
 
     val sparkConf = new SparkConf().setAppName("SparkActions").setMaster("local[*]")
 

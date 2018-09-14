@@ -7,7 +7,7 @@ object SparkActions {
 
   def main(args: Array[String]): Unit = {
 
-    System.setProperty("hadoop.home.dir", "D:\\winutils");
+    System.setProperty("hadoop.home.dir", "C:\\winutils")
 
     val sparkConf = new SparkConf().setAppName("SparkActions").setMaster("local[*]")
 
