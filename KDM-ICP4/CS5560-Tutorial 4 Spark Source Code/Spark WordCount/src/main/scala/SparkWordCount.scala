@@ -15,7 +15,7 @@ object SparkWordCount {
 
     val sc=new SparkContext(sparkConf)
 
-    val inputf = sc.wholeTextFiles("data", 10)
+    val inputf = sc.wholeTextFiles("data", 100)
     val input = inputf.map(abs => {
       abs._2
       }).cache()

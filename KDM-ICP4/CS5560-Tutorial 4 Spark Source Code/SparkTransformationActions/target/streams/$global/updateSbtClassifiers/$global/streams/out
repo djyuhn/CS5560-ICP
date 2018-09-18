@@ -15,7 +15,6 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
-[debug] no default cache defined: set to C:\Users\djyuh\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -59,6 +58,7 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] no default cache defined: set to C:\Users\djyuh\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
@@ -704,9 +704,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 2274ms :: artifacts dl 76ms
+[debug] :: resolution report :: resolve 928ms :: artifacts dl 133ms
 [debug] 	report for default#sparktransformationactions$sbt_2.11;1.0 default produced in C:\dev\CS5560-ICP\KDM-ICP4\CS5560-Tutorial 4 Spark Source Code\SparkTransformationActions\target\resolution-cache\reports\default-sparktransformationactions$sbt_2.11-default.xml
-[debug] 	resolve done (2274ms resolve - 76ms download)
+[debug] 	resolve done (928ms resolve - 133ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#sparktransformationactions$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1001,11 +1001,6 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logic;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logic;0.13.8
 [debug] 	found org.scala-sbt#logic;0.13.8 in sbt-chain
-[debug] == resolving dependencies default#sparktransformationactions$sources_2.11;1.0->org.scala-sbt#compiler-interface;0.13.8 [default->default(compile)]
-[info] Resolving org.scala-sbt#compiler-interface;0.13.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-interface;0.13.8 {default=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-interface;0.13.8
-[debug] 	found org.scala-sbt#compiler-interface;0.13.8 in sbt-chain
 [debug] == resolving dependencies default#sparktransformationactions$sources_2.11;1.0->org.scala-sbt#precompiled-2_8_2;0.13.8 [default->default(compile)]
 [info] Resolving org.scala-sbt#precompiled-2_8_2;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_8_2;0.13.8 {default=[default(compile)]}
@@ -1072,37 +1067,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#command;0.13.8!command.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.8!logic.jar(src)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[debug] 		tried C:\Users\djyuh\.ivy2\local\org.scala-sbt\compiler-interface\0.13.8\srcs\compiler-interface-sources.jar
-[debug] 		tried C:\Users\djyuh\.sbt\preloaded\org.scala-sbt\compiler-interface\0.13.8\srcs\compiler-interface-sources.jar
-[debug] 		tried file:/C:/Users/djyuh/.sbt/preloaded/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
-[warn] 	[FAILED     ] org.scala-sbt#compiler-interface;0.13.8!compiler-interface.jar(src):  (0ms)
-[warn] ==== typesafe-ivy-releases: tried
-[warn]   https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[warn] ==== sbt-plugin-releases: tried
-[warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[warn] ==== local: tried
-[warn]   C:\Users\djyuh\.ivy2\local\org.scala-sbt\compiler-interface\0.13.8\srcs\compiler-interface-sources.jar
-[warn] ==== local-preloaded-ivy: tried
-[warn]   C:\Users\djyuh\.sbt\preloaded\org.scala-sbt\compiler-interface\0.13.8\srcs\compiler-interface-sources.jar
-[warn] ==== local-preloaded: tried
-[warn]   file:/C:/Users/djyuh/.sbt/preloaded/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
-[warn] ==== public: tried
-[warn]   https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 187ms :: artifacts dl 1584ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: org.scala-sbt#compiler-interface;0.13.8!compiler-interface.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] :: resolution report :: resolve 431ms :: artifacts dl 117ms
 [debug] 	report for default#sparktransformationactions$sources_2.11;1.0 default produced in C:\dev\CS5560-ICP\KDM-ICP4\CS5560-Tutorial 4 Spark Source Code\SparkTransformationActions\target\resolution-cache\reports\default-sparktransformationactions$sources_2.11-default.xml
-[debug] 	resolve done (187ms resolve - 1584ms download)
+[debug] 	resolve done (431ms resolve - 117ms download)

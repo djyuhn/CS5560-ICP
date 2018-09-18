@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14402cb9-0877-4340-98d0-64325ce75b16" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/.idea/modules/spark-wordcount-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/.idea/modules/spark-wordcount-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/.idea/modules/spark-wordcount.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark WordCount/.idea/modules/SparkTransformationActions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/.idea/modules/SparkTransformationActions.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/output/._SUCCESS.crc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/output/.part-00000.crc" beforeDir="false" />
@@ -13,29 +10,6 @@
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/output/_SUCCESS" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/output/part-00000" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/output/part-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/project/target/config-classes/$2859733296d688fe2093$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/project/target/config-classes/$2859733296d688fe2093.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/project/target/config-classes/$7a26fa1a2d845ed5641c$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/project/target/config-classes/$7a26fa1a2d845ed5641c$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/project/target/config-classes/$7a26fa1a2d845ed5641c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$10e07b80615dd03ec7da$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$10e07b80615dd03ec7da$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$10e07b80615dd03ec7da.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$1b3299a36cf034cff354$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$1b3299a36cf034cff354$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$1b3299a36cf034cff354.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$6bb8b3f06239755e9931$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$6bb8b3f06239755e9931$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$6bb8b3f06239755e9931.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$78464e7bbe314b1c88de$$anonfun$$sbtdef$1$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$78464e7bbe314b1c88de$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$78464e7bbe314b1c88de$$anonfun$$sbtdef$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$78464e7bbe314b1c88de$$anonfun$$sbtdef$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$78464e7bbe314b1c88de$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$78464e7bbe314b1c88de.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$ee22bbb939fa59a36257$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$ee22bbb939fa59a36257$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/config-classes/$ee22bbb939fa59a36257.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-compile-internal.xml" afterDir="false" />
@@ -52,19 +26,7 @@
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/src/main/scala/SparkWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/src/main/scala/SparkWordCount.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-compile-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-compile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-docs.xml" afterDir="false" />
@@ -95,225 +57,11 @@
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions$sources_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions$sources_2.11/1.0/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions_2.11/1.0/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions_2.11/1.0/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/scala-2.11/classes/SparkWordCount$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark WordCount/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark WordCount/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_carrotsearch_hppc_0_7_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_chuusai_shapeless_2_11_2_3_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_clearspring_analytics_stream_2_7_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_esotericsoftware_kryo_shaded_3_0_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_esotericsoftware_minlog_1_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_7_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_7_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_7_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_luben_zstd_jni_1_3_2_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_2_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_11_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_inject_guice_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_protobuf_protobuf_java_2_5_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_jamesmurty_utils_java_xmlbuilder_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ning_compress_lzf_1_0_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_2_11_0_8_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_java_0_8_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_univocity_univocity_parsers_2_5_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_vlkan_flatbuffers_1_2_0_3f79e055_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_beanutils_commons_beanutils_1_7_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_cli_commons_cli_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_collections_commons_collections_3_2_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_configuration_commons_configuration_1_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_digester_commons_digester_1_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_lang_commons_lang_2_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_net_commons_net_2_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_airlift_aircompressor_0_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_9_9_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_all_4_1_17_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_activation_activation_1_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_annotation_javax_annotation_api_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_validation_validation_api_1_1_0_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_ws_rs_javax_ws_rs_api_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_xml_stream_stax_api_1_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__jline_jline_0_9_94_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_9_9_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_iharder_base64_2_3_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_9_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_razorvine_pyrolite_4_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_arrow_arrow_format_0_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_arrow_arrow_memory_0_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_arrow_arrow_vector_0_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_compress_1_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_crypto_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math3_3_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_client_2_6_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_framework_2_6_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_6_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_directory_api_api_asn1_api_1_0_0_M20_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_directory_api_api_util_1_0_0_M20_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_directory_server_apacheds_i18n_2_0_0_M15_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_ivy_ivy_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_orc_orc_core_1_4_4_nohive_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_orc_orc_mapreduce_1_4_4_nohive_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_8_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_8_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_8_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_8_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_8_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_kvstore_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_mllib_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_mllib_local_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_streaming_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_bouncycastle_bcprov_jdk15on_1_52_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jackson_jackson_jaxrs_1_9_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jackson_jackson_xc_1_9_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_3_0_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_janino_janino_3_0_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jettison_jettison_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_external_javax_inject_2_4_0_b34_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_hk2_api_2_4_0_b34_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_hk2_locator_2_4_0_b34_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_hk2_utils_2_4_0_b34_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_osgi_resource_locator_1_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_client_2_22_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_common_2_22_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_server_2_22_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_htrace_htrace_core_3_0_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_javassist_javassist_3_18_1_GA_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ast_2_11_3_2_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_core_2_11_3_2_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_jackson_2_11_3_2_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_lz4_lz4_java_1_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_objenesis_objenesis_2_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_11_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_16_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_16_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_16_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_spark_project_spark_unused_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_2_11_0_13_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_13_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_tukaani_xz_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_machinist_2_11_0_6_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__oro_oro_2_0_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xerces_xercesImpl_2_9_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xml_apis_xml_apis_1_3_04_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xmlenc_xmlenc_0_52_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sparktransformationactions-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sparktransformationactions-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sparktransformationactions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SparkTransformationActions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SparkTransformationActions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SparkTransformationActions.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$01e427323bcfc3389082$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$01e427323bcfc3389082$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$01e427323bcfc3389082.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$15bf35dd45f9e136225f$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$15bf35dd45f9e136225f$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$15bf35dd45f9e136225f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$688d1a2e9c8e4684a6ee$$anonfun$$sbtdef$1$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$688d1a2e9c8e4684a6ee$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$688d1a2e9c8e4684a6ee$$anonfun$$sbtdef$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$688d1a2e9c8e4684a6ee$$anonfun$$sbtdef$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$688d1a2e9c8e4684a6ee$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$688d1a2e9c8e4684a6ee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8201df073a4b9b762844$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8201df073a4b9b762844$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8201df073a4b9b762844.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b959e89bf1250924c9e1$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b959e89bf1250924c9e1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b959e89bf1250924c9e1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e04cade6850d4603ffe9$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e04cade6850d4603ffe9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e04cade6850d4603ffe9.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/sparktransformationactions-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/sparktransformationactions-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/sparktransformationactions-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/sparktransformationactions-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-sparktransformationactions-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-sparktransformationactions-build-compile-internal.xml" afterDir="false" />
@@ -330,20 +78,7 @@
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-sparktransformationactions-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-sparktransformationactions-build-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-sparktransformationactions-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-sparktransformationactions-build-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkActions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkActions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkKeyValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkKeyValue.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkMultipleDatasets.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkMultipleDatasets.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkTransformation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkTransformation.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/sparktransformationactions$sbt_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/sparktransformationactions$sbt_2.11/1.0/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/sparktransformationactions$sbt_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/sparktransformationactions$sbt_2.11/1.0/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/sparktransformationactions$sources_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/sparktransformationactions$sources_2.11/1.0/resolved.xml.properties" afterDir="false" />
@@ -377,22 +112,11 @@
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-sparktransformationactions_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-sparktransformationactions_2.11-sources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-sparktransformationactions_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-sparktransformationactions_2.11-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-sparktransformationactions_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-sparktransformationactions_2.11-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparkActions$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparkActions$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparkKeyValue$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparkKeyValue$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SparkTransformation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SparkTransformation$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="SparkTransformationActions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -435,10 +159,11 @@
     <session id="-1276475962">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -469,7 +194,7 @@
     <favorites_list name="SparkTransformationActions" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
@@ -479,20 +204,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTransformation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkActions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="161">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -509,7 +234,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMultipleDatasets.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="313">
               <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
             </state>
           </provider>
@@ -549,7 +274,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -557,20 +284,36 @@
               <item name="SparkTransformationActions" type="b2602c69:ProjectViewProjectNode" />
               <item name="SparkTransformationActions" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SparkTransformationActions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkTransformationActions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTransformationActions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkTransformationActions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTransformationActions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkTransformationActions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536856615331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537204979415" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spark WordCount" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -805,6 +548,7 @@
         <entry key="C:/2016 Spring/CS5542-BigDataAnalytics/Tutorial/Tutorial 5/Spark Streaming and Phone Connection/Tutorial 5 - Spark to iOS/Spark WordCount" value="1441857940982" />
         <entry key="C:/2016 Summer/CS560-2016Summer/Tutorials/W4 - Spark and TF-IDF/Spark WordCount" value="1441857940982" />
         <entry key="$USER_HOME$/Downloads/Spark20NewsGroup-master/Spark20NewsGroup-master" value="1420306554000" />
+        <entry key="$PROJECT_DIR$" value="4610683750833" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3726500574" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3066353247" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2079250107" />
@@ -830,17 +574,18 @@
       <workItem from="1536451549052" duration="666000" />
       <workItem from="1536856144164" duration="454000" />
       <workItem from="1536867741457" duration="1202000" />
+      <workItem from="1537190081713" duration="1613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3499000" />
+    <option name="totallyTimeSpent" value="5112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14577039" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14803626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -873,7 +618,7 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SBT" order="6" weight="0.32959184" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="sbt" order="8" visible="true" weight="0.16465257" />
+      <window_info active="true" anchor="right" id="sbt" order="8" visible="true" weight="0.16465257" />
       <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
@@ -925,10 +670,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMultipleDatasets.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        <state relative-caret-position="230">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkActions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -939,24 +691,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMultipleDatasets.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTransformation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkActions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state>
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>

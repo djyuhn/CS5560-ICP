@@ -4,7 +4,7 @@
 		module="sparktransformationactions$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180913113756"
+		publication="20180918101800"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -111,9 +111,6 @@
 		<dependency org="commons-beanutils" name="commons-beanutils" rev="1.7.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="commons-beanutils" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="protobuf-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
 		<dependency org="com.google.code.gson" name="gson" rev="2.2.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="gson" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -170,12 +167,6 @@
 		</dependency>
 		<dependency org="org.apache.hadoop" name="hadoop-yarn-api" rev="2.6.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="hadoop-yarn-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="javax.xml.bind" name="jaxb-api" rev="2.2.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jaxb-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="javax.xml.stream" name="stax-api" rev="1.0-2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="stax-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.codehaus.jackson" name="jackson-jaxrs" rev="1.9.13" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jackson-jaxrs" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -254,12 +245,6 @@
 		</dependency>
 		<dependency org="net.java.dev.jets3t" name="jets3t" rev="0.9.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jets3t" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="httpcore" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="commons-codec" name="commons-codec" rev="1.11" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -540,11 +525,89 @@
 		<dependency org="org.typelevel" name="macro-compat_2.11" rev="1.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="macro-compat_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
+		<dependency org="edu.stanford.nlp" name="stanford-corenlp" rev="3.9.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="stanford-corenlp" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="de.jollyday" name="jollyday" rev="0.4.9" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jollyday" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="javax.xml.bind" name="jaxb-api" rev="2.2.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jaxb-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.lucene" name="lucene-queryparser" rev="4.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="lucene-queryparser" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.lucene" name="lucene-core" rev="4.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="lucene-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.lucene" name="lucene-queries" rev="4.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="lucene-queries" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.lucene" name="lucene-sandbox" rev="4.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="lucene-sandbox" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.lucene" name="lucene-analyzers-common" rev="4.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="lucene-analyzers-common" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.io7m.xom" name="xom" rev="1.2.10" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="xom" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="xalan" name="xalan" rev="2.7.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="xalan" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.googlecode.efficient-java-matrix-library" name="ejml" rev="0.23" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="ejml" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.glassfish" name="javax.json" rev="1.0.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="javax.json" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.google.protobuf" name="protobuf-java" rev="3.2.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="protobuf-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="edu.stanford.nlp" name="stanford-parser" rev="3.9.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="stanford-parser" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="httpcore" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-logging" name="commons-logging" rev="1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.googlecode.json-simple" name="json-simple" rev="1.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="json-simple" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="junit" name="junit" rev="4.10" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="junit" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.hamcrest" name="hamcrest-core" rev="1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hamcrest-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.github.scopt" name="scopt_2.10" rev="3.4.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="scopt_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.16" transitive="false" conf="provided->default(compile)">
 			<artifact name="slf4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
+		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" transitive="false" conf="provided->default(compile)">
+			<artifact name="protobuf-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="javax.xml.bind" name="jaxb-api" rev="2.2.2" transitive="false" conf="provided->default(compile)">
+			<artifact name="jaxb-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="javax.xml.stream" name="stax-api" rev="1.0-2" transitive="false" conf="provided->default(compile)">
+			<artifact name="stax-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.6.7" transitive="false" conf="provided->default(compile)">
 			<artifact name="jackson-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.1" transitive="false" conf="provided->default(compile)">
+			<artifact name="httpcore" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5" transitive="false" conf="provided->default(compile)">
+			<artifact name="httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scala-lang.modules" name="scala-parser-combinators_2.11" rev="1.0.1" transitive="false" conf="provided->default(compile)">
 			<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>

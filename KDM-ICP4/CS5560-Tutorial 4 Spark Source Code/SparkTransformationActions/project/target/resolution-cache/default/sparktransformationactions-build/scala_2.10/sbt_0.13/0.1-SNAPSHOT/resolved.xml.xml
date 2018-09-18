@@ -4,7 +4,7 @@
 		module="sparktransformationactions-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180913112953"
+		publication="20180917081503"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

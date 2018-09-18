@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180913113745"/>
+		date="20180917125451"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-core_2.11">
 			<revision name="2.3.1" status="release" pubdate="20180601162909" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
@@ -810,6 +810,7 @@
 				<metadata-artifact status="no" details="" size="8616" time="0" location="C:\Users\djyuh\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.pom"/>
 				<evicted-by rev="4.5"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-auth" conf="compile, runtime" rev="4.2.5" rev-constraint-default="4.2.5" rev-constraint-dynamic="4.2.5" callerrev="2.6.5"/>
+				<caller organisation="net.java.dev.jets3t" name="jets3t" conf="compile, runtime" rev="4.5" rev-constraint-default="4.5" rev-constraint-dynamic="4.5" callerrev="0.9.4"/>
 				<artifacts>
 				</artifacts>
 			</revision>
