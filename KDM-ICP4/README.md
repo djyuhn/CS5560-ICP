@@ -28,6 +28,14 @@ If no synonyms were found using WordNet then the associated value is `null`. Usi
 
 
 
+# Get Medical Words
+
+To get the medical words associated with the texts, we need to make an HTTP GET request to BioPortal. This HTTP GET request requires the abstract IDs that were gathered from an earlier ICP. Using Spark, the files containing the abstract IDs are collected using a regular expression to remove any return or new line characters. Then each ID (known as a `PMID` to BioPortal) is sent to my java method `getMedWords()` that takes a string as an argument. This method conducts the HTTP GET request and returns an array of the medical words.
+
+![getMedicalWords](../docs/KDM-ICP4/getMedicalWords.gif)
+
+
+
 # Source Code
 
 The source code for this ICP was provided by the class instructor Mayanka ChandraShekar: [mckw9@mail.umkc.edu](mckw9@mail.umkc.edu)
