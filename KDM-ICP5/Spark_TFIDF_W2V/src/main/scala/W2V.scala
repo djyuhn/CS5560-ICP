@@ -9,10 +9,10 @@ import org.apache.spark.mllib.feature.{Word2Vec, Word2VecModel}
 object W2V {
   def main(args: Array[String]): Unit = {
 
-    System.setProperty("hadoop.home.dir", "D:\\Mayanka Lenevo F Drive\\winutils")
+    System.setProperty("hadoop.home.dir", "C:\\winutils")
 
     val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
-      .set("spark.driver.memory", "6g").set("spark.executor.memory", "6g")
+      .set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
 
     val sc = new SparkContext(sparkConf)
 

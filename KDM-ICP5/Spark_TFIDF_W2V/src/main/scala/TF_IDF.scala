@@ -1,3 +1,5 @@
+import java.io.{BufferedWriter, FileWriter}
+
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.feature.{HashingTF, IDF}
 
@@ -9,27 +11,36 @@ import scala.collection.immutable.HashMap
 object TF_IDF {
   def main(args: Array[String]): Unit = {
 
-    System.setProperty("hadoop.home.dir", "D:\\Mayanka Lenevo F Drive\\winutils")
+    System.setProperty("hadoop.home.dir", "C:\\winutils")
 
     val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
 
     val sc = new SparkContext(sparkConf)
 
     //Reading the Text File
-    val documents = sc.textFile("data/Article.txt")
+    val documents = sc.wholeTextFiles("abstractFiles", 10)
+    val abstracts = documents.map(abs => {
+      abs._2
+    }).cache()
 
-    //Getting the Lemmatised form of the words in TextFile
-    val documentseq = documents.map(f => {
+    //
+
+    abstracts.saveAsTextFile("output1")
+
+    //Getting the Lemmatised form of the words from text files
+    val abstractsLem = abstracts.map(f => {
       val lemmatised = CoreNLP.returnLemma(f)
       val splitString = f.split(" ")
       splitString.toSeq
     })
 
+    abstractsLem.saveAsTextFile("output")
+
     //Creating an object of HashingTF Class
     val hashingTF = new HashingTF()
 
     //Creating Term Frequency of the document
-    val tf = hashingTF.transform(documentseq)
+    val tf = hashingTF.transform(abstractsLem)
     tf.cache()
 
 
@@ -62,17 +73,21 @@ object TF_IDF {
 
     val mapp = sc.broadcast(hm)
 
-    val documentData = documentseq.flatMap(_.toList)
+    val documentData = abstractsLem.flatMap(_.toList)
     val dd = documentData.map(f => {
       val i = hashingTF.indexOf(f)
       val h = mapp.value
       (f, h(i.toString))
     })
 
+    val topLemWriter = new BufferedWriter(new FileWriter("finalData/topLemWords.txt"))
+
     val dd1 = dd.distinct().sortBy(_._2, false)
     dd1.take(20).foreach(f => {
       println(f)
+      topLemWriter.write(f._1 + ", " + f._2 + "\n")
     })
+    topLemWriter.close()
 
   }
 

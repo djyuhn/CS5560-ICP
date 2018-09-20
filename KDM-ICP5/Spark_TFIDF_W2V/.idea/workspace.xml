@@ -1,12 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72d0f7b4-b70b-4d8e-a04a-899daa2c7f14" name="Default" comment="" />
+    <list default="true" id="72d0f7b4-b70b-4d8e-a04a-899daa2c7f14" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../AbstractRetrieval/Retrieve_abstract/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AbstractRetrieval/Retrieve_abstract/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/output/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/output/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/output/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/output/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/output/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/output/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/resolution-cache/reports/default-spark-wordcount-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions$sources_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/reports/sparktransformationactions-sparktransformationactions_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions$sources_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions$sources_2.11/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions$sources_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions$sources_2.11/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions_2.11/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/resolution-cache/sparktransformationactions/sparktransformationactions_2.11/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/TF_IDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/TF_IDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/W2V.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/W2V.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,27 +96,128 @@
       </state>
     </system>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="825335993">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="scala" value="277" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Scala" value="277" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="_SUCCESS" value="2" />
+          <entry key="part-00000" value="2" />
+          <entry key="part-00001" value="1" />
+          <entry key="part-00002" value="1" />
+          <entry key="part-00003" value="1" />
+          <entry key="part-00004" value="1" />
+          <entry key="part-00005" value="1" />
+          <entry key="sample" value="2" />
+          <entry key="scala" value="1" />
+          <entry key="text8" value="2" />
+          <entry key="txt" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Scala" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TF_IDF.scala" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/TF_IDF.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="-1012">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="W2V.scala" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/finalData/topLemWords.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/NGRAM.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/W2V.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="-345">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/sample">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-897" />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>article</find>
+      <find>sample</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/W2V.scala" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract1.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract2.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract3.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract4.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract5.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract6.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract7.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract8.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract9.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract10.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract11.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract12.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract13.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract14.txt" />
+        <option value="$PROJECT_DIR$/abstractFiles/abstract15.txt" />
+        <option value="$PROJECT_DIR$/src/main/scala/TF_IDF.scala" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -62,27 +225,39 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spark_tfidf_w2v" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spark_TFIDF_W2V" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_tfidf_w2v" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spark_TFIDF_W2V" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_tfidf_w2v" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spark_TFIDF_W2V" type="462c0819:PsiDirectoryNode" />
+              <item name="finalData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_tfidf_w2v" type="b2602c69:ProjectViewProjectNode" />
@@ -106,12 +281,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537476470971" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KDM-ICP4/CS5560-Tutorial 4 Spark Source Code/Spark WordCount" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -130,57 +306,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.W2V">
+  <component name="RunManager" selected="Application.TF_IDF">
     <configuration name="TF_IDF" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="TF_IDF" />
       <module name="spark_tfidf_w2v" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="W2V" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="W2V" />
       <module name="spark_tfidf_w2v" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.TF_IDF" />
@@ -188,8 +349,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.W2V" />
         <item itemvalue="Application.TF_IDF" />
+        <item itemvalue="Application.W2V" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +381,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3035049953051" />
         <entry key="$PROJECT_DIR$/build.sbt" value="649353" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2920355924" />
       </map>
@@ -236,51 +398,53 @@
       <option name="presentableId" value="Default" />
       <updated>1537146713187</updated>
       <workItem from="1537146714638" duration="148000" />
+      <workItem from="1537466894692" duration="7140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148000" />
+    <option name="totallyTimeSpent" value="7288000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="sbt" visible="true" weight="0.32871014" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5006935" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Build" sideWeight="0.49930653" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="SBT Execute" side_tool="true" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17673716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="SBT Console" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930653" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24965326" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930653" weight="0.18960245" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49930653" />
+      <window_info anchor="bottom" id="SBT Console" order="8" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006935" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32874617" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="SBT Execute" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" visible="true" weight="0.17371601" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,17 +454,177 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/TF_IDF.scala">
+    <entry file="file://$PROJECT_DIR$/data/Article.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/text8">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sample">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
+        <state relative-caret-position="-897" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myModelPath/data/_SUCCESS">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myModelPath/metadata/_SUCCESS">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myModelPath/metadata/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/W2V.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="-345">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="803" selection-start-column="803" selection-end-column="803" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="302" selection-start-column="302" selection-end-column="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="218" selection-start-column="218" selection-end-column="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1015" selection-start-column="1015" selection-end-column="1015" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="669" selection-start-column="669" selection-end-column="669" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1980" selection-start-column="1980" selection-end-column="1980" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="952" selection-start-column="952" selection-end-column="952" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="682" selection-start-column="682" selection-end-column="682" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract11.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1936" selection-start-column="1730" selection-end-column="1936" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="812" selection-start-column="812" selection-end-column="812" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract13.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1099" selection-start-column="1099" selection-end-column="1099" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract14.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="406" selection-start-column="406" selection-end-column="406" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFiles/abstract15.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="143" selection-start-column="143" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-00001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-00002">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-00003">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-00004">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-00005">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NGRAM.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finalData/topLemWords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TF_IDF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1012">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
