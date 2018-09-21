@@ -16,6 +16,7 @@ object TF_IDF {
     val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
 
     val sc = new SparkContext(sparkConf)
+    val ngramValue = 2 // Value of ngram specified
 
     //Reading the Text File
     val documents = sc.wholeTextFiles("abstractFiles", 10)
@@ -36,12 +37,22 @@ object TF_IDF {
       words.toSeq
     })
 
+    //Getting the n-grams from the text files using value of 2
+    val abstractNGrams = abstracts.flatMap(f => {
+      val ngrams = NGRAM.getNGrams(f, ngramValue)
+      ngrams.toSeq
+    }).map(ngrams => {
+      ngrams.toSeq
+    })
+
     abstractsLem.saveAsTextFile("outputLem")
     abstractsWords.saveAsTextFile("outputWords")
+    abstractNGrams.saveAsTextFile("outputNGrams")
 
     //Creating an object of HashingTF Class
     val hashingTFLem = new HashingTF()
     val hashingTFWords = new HashingTF()
+    val hashingTFNGrams = new HashingTF()
 
     //Creating Term Frequency of the lemmatized words
     val tfLem = hashingTFLem.transform(abstractsLem)
@@ -51,12 +62,17 @@ object TF_IDF {
     val tfWords = hashingTFWords.transform(abstractsWords)
     tfWords.cache()
 
+    //Creating NGRAM frequency of words
+    val tfNGRAM = hashingTFNGrams.transform(abstractNGrams)
+
     val idfLem = new IDF().fit(tfLem)
     val idfWords = new IDF().fit(tfWords)
+    val idfNGRAM = new IDF().fit(tfNGRAM)
 
     //Creating Inverse Document Frequency
     val tfidfLem = idfLem.transform(tfLem)
     val tfidfWords = idfWords.transform(tfWords)
+    val tfidfNGRAM = idfNGRAM.transform(tfNGRAM)
 
     // Obtain Lem values
     val tfidfvaluesLem = tfidfLem.flatMap(f => {
@@ -86,12 +102,27 @@ object TF_IDF {
       indices
     })
 
+    // Obtain NGRAM values
+    val tfidfvaluesNGRAM = tfidfNGRAM.flatMap(f => {
+      val ff: Array[String] = f.toString.replace(",[", ";").split(";")
+      val values = ff(2).replace("]", "").replace(")", "").split(",")
+      values
+    })
+
+    // Obtain NGRAM indices
+    val tfidfindexNGRAM = tfidfNGRAM.flatMap(f => {
+      val ff: Array[String] = f.toString.replace(",[", ";").split(";")
+      val indices = ff(1).replace("]", "").replace(")", "").split(",")
+      indices
+    })
 
     val tfidfDataLem = tfidfindexLem.zip(tfidfvaluesLem)
     val tfidfDataWords = tfidfindexWords.zip(tfidfvaluesWords)
+    val tfidfDataNGRAM = tfidfindexNGRAM.zip(tfidfvaluesNGRAM)
 
     var hmLem = new HashMap[String, Double]
     var hmWords = new HashMap[String, Double]
+    var hmNGRAM = new HashMap[String, Double]
 
     tfidfDataLem.collect().foreach(f => {
       hmLem += f._1 -> f._2.toDouble
@@ -101,8 +132,13 @@ object TF_IDF {
       hmWords += f._1 -> f._2.toDouble
     })
 
+    tfidfDataNGRAM.collect().foreach(f => {
+      hmWords += f._1 -> f._2.toDouble
+    })
+
     val mappLem = sc.broadcast(hmLem)
     val mappWords = sc.broadcast(hmWords)
+    val mappNGRAM = sc.broadcast(hmNGRAM)
 
     val documentDataLem = abstractsLem.flatMap(_.toList)
     val ddLem = documentDataLem.map(f => {
@@ -118,8 +154,16 @@ object TF_IDF {
       (f, h(i.toString))
     })
 
+    val documentDataNGRAM = abstractNGrams.flatMap(_.toList)
+    val ddNGRAM = documentDataNGRAM.map(f => {
+      val i = hashingTFWords.indexOf(f)
+      val h = mappWords.value
+      (f, h(i.toString))
+    })
+
     val topLemWriter = new BufferedWriter(new FileWriter("finalData/topLemWords.txt"))
     val topWordWriter = new BufferedWriter(new FileWriter("finalData/topWords.txt"))
+    val topNGRAMWriter = new BufferedWriter(new FileWriter("finalData/topNGRAMs.txt"))
 
     val dd1 = ddLem.distinct().sortBy(_._2, false)
     dd1.take(20).foreach(f => {
@@ -135,6 +179,12 @@ object TF_IDF {
     })
     topWordWriter.close()
 
+    val dd3 = ddNGRAM.distinct().sortBy(_._2, false)
+    dd3.take(20).foreach(f => {
+      println(f)
+      topNGRAMWriter.write(f._1 + ", " + f._2 + "\n")
+    })
+    topNGRAMWriter.close()
 
   }
 

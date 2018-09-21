@@ -20,6 +20,12 @@ The above process was repeated to obtain the top 20 Unlemmatized words.
 
 
 
+# Getting Top 20 N-Gram
+
+Like for the Top 20 Words and Lemmatized words, obtaining the N-Grams used a similar process. The abstracts were read in as whole text files using Spark. From here, the abstracts were obtained as an RDD. Each of these abstracts were mapped from the RDD and processed through the NGRAM object using the getNGrams method. Once completed, the N-Grams of the abstracts were then put through the hashingTF class to obtain the TFs, following by a transform to create the IDFs.
+
+
+
 # Source Code
 
 The source code for this ICP was provided by the class instructor Mayanka ChandraShekar: [mckw9@mail.umkc.edu](mckw9@mail.umkc.edu)
