@@ -23,71 +23,118 @@ object TF_IDF {
       abs._2
     }).cache()
 
-    //
-
-    abstracts.saveAsTextFile("output1")
-
     //Getting the Lemmatised form of the words from text files
     val abstractsLem = abstracts.map(f => {
       val lemmatised = CoreNLP.returnLemma(f)
-      val splitString = f.split(" ")
+      val splitString = lemmatised.split(" ")
       splitString.toSeq
     })
 
-    abstractsLem.saveAsTextFile("output")
+    //Getting the words from the text files
+    val abstractsWords = abstracts.map(f => {
+      val words = f.split(" ")
+      words.toSeq
+    })
+
+    abstractsLem.saveAsTextFile("outputLem")
+    abstractsWords.saveAsTextFile("outputWords")
 
     //Creating an object of HashingTF Class
-    val hashingTF = new HashingTF()
+    val hashingTFLem = new HashingTF()
+    val hashingTFWords = new HashingTF()
 
-    //Creating Term Frequency of the document
-    val tf = hashingTF.transform(abstractsLem)
-    tf.cache()
+    //Creating Term Frequency of the lemmatized words
+    val tfLem = hashingTFLem.transform(abstractsLem)
+    tfLem.cache()
 
+    //Creating Term Frequency of the words
+    val tfWords = hashingTFWords.transform(abstractsWords)
+    tfWords.cache()
 
-    val idf = new IDF().fit(tf)
+    val idfLem = new IDF().fit(tfLem)
+    val idfWords = new IDF().fit(tfWords)
 
     //Creating Inverse Document Frequency
-    val tfidf = idf.transform(tf)
+    val tfidfLem = idfLem.transform(tfLem)
+    val tfidfWords = idfWords.transform(tfWords)
 
-    val tfidfvalues = tfidf.flatMap(f => {
+    // Obtain Lem values
+    val tfidfvaluesLem = tfidfLem.flatMap(f => {
       val ff: Array[String] = f.toString.replace(",[", ";").split(";")
       val values = ff(2).replace("]", "").replace(")", "").split(",")
       values
     })
 
-    val tfidfindex = tfidf.flatMap(f => {
+    // Obtain Lem indices
+    val tfidfindexLem = tfidfLem.flatMap(f => {
       val ff: Array[String] = f.toString.replace(",[", ";").split(";")
       val indices = ff(1).replace("]", "").replace(")", "").split(",")
       indices
     })
 
-    tfidf.foreach(f => println(f))
-
-    val tfidfData = tfidfindex.zip(tfidfvalues)
-
-    var hm = new HashMap[String, Double]
-
-    tfidfData.collect().foreach(f => {
-      hm += f._1 -> f._2.toDouble
+    // Obtain Words values
+    val tfidfvaluesWords = tfidfWords.flatMap(f => {
+      val ff: Array[String] = f.toString.replace(",[", ";").split(";")
+      val values = ff(2).replace("]", "").replace(")", "").split(",")
+      values
     })
 
-    val mapp = sc.broadcast(hm)
+    // Obtain Words indices
+    val tfidfindexWords = tfidfWords.flatMap(f => {
+      val ff: Array[String] = f.toString.replace(",[", ";").split(";")
+      val indices = ff(1).replace("]", "").replace(")", "").split(",")
+      indices
+    })
 
-    val documentData = abstractsLem.flatMap(_.toList)
-    val dd = documentData.map(f => {
-      val i = hashingTF.indexOf(f)
-      val h = mapp.value
+
+    val tfidfDataLem = tfidfindexLem.zip(tfidfvaluesLem)
+    val tfidfDataWords = tfidfindexWords.zip(tfidfvaluesWords)
+
+    var hmLem = new HashMap[String, Double]
+    var hmWords = new HashMap[String, Double]
+
+    tfidfDataLem.collect().foreach(f => {
+      hmLem += f._1 -> f._2.toDouble
+    })
+
+    tfidfDataWords.collect().foreach(f => {
+      hmWords += f._1 -> f._2.toDouble
+    })
+
+    val mappLem = sc.broadcast(hmLem)
+    val mappWords = sc.broadcast(hmWords)
+
+    val documentDataLem = abstractsLem.flatMap(_.toList)
+    val ddLem = documentDataLem.map(f => {
+      val i = hashingTFLem.indexOf(f)
+      val h = mappLem.value
+      (f, h(i.toString))
+    })
+
+    val documentDataWords = abstractsWords.flatMap(_.toList)
+    val ddWords = documentDataWords.map(f => {
+      val i = hashingTFWords.indexOf(f)
+      val h = mappWords.value
       (f, h(i.toString))
     })
 
     val topLemWriter = new BufferedWriter(new FileWriter("finalData/topLemWords.txt"))
+    val topWordWriter = new BufferedWriter(new FileWriter("finalData/topWords.txt"))
 
-    val dd1 = dd.distinct().sortBy(_._2, false)
+    val dd1 = ddLem.distinct().sortBy(_._2, false)
     dd1.take(20).foreach(f => {
       println(f)
       topLemWriter.write(f._1 + ", " + f._2 + "\n")
     })
     topLemWriter.close()
+
+    val dd2 = ddWords.distinct().sortBy(_._2, false)
+    dd2.take(20).foreach(f => {
+      println(f)
+      topWordWriter.write(f._1 + ", " + f._2 + "\n")
+    })
+    topWordWriter.close()
+
 
   }
 
