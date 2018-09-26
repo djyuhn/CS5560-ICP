@@ -22,7 +22,7 @@ public class RetrieveAbstracts3 {
 
   public static void main(String[] args)
 	    {
-            int numOfAbstracts = 20; // The number of Abstracts to retrieve
+            int numOfAbstracts = 30; // The number of Abstracts to retrieve
 
 	        try
 	        {

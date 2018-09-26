@@ -20,7 +20,7 @@ public class MainRetrieveFromIDs1 {
 
 		int inLastYears = 10; // Retrieve only records added to PubMed in the last # years
 
-        int numOfPMIDS = 20; // The number of PMIDs to retrieve
+        int numOfPMIDS = 30; // The number of PMIDs to retrieve
 
 		int inLastDays = inLastYears * 365;
 		try
