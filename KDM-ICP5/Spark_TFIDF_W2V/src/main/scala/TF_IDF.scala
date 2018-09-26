@@ -37,7 +37,7 @@ object TF_IDF {
       words.toSeq
     })
 
-    //Getting the n-grams from the text files using value of 2
+    //Getting the n-grams from the text files
     val abstractNGrams = abstracts.flatMap(f => {
       val ngrams = NGRAM.getNGrams(f, ngramValue)
       ngrams.toSeq
@@ -133,7 +133,7 @@ object TF_IDF {
     })
 
     tfidfDataNGRAM.collect().foreach(f => {
-      hmWords += f._1 -> f._2.toDouble
+      hmNGRAM += f._1 -> f._2.toDouble
     })
 
     val mappLem = sc.broadcast(hmLem)
