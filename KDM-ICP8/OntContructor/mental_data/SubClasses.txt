@@ -1,0 +1,14 @@
+Triplet,Subject
+Triplet,Object
+Gene,Subject
+Gene,Object
+Disease,Subject
+Disease,Object
+Chemical,Subject
+Chemical,Object
+Species,Subject
+Species,Object
+Mutation,Subject
+Mutation,Object
+Other,Subject
+Other,Object

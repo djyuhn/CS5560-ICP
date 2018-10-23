@@ -12,64 +12,62 @@ import scala.io.Source
   */
 object OntContructorMain {
   def main(args: Array[String]): Unit = {
+  /**
+    * File Format
+    *
+    * FileName : Classes
+    * Format : ListOfClassNames
+    * Person
+    * Ethnicity
+    * Gender
+    *
+    * FileName: SubClasses
+    * Format : ClassName,SubClassName
+    * Person,Daughter
+    * Person,Parent
+    * Person,OffSpring
+    * Person,Son
+    * Person,Mother
+    * Person,Father
+    *
+    * FileName: ObjectProperties
+    * Format : ObjectPropertyName, DomainName, RangeName, ObjectPropertyType (Functional-Func, InverseOf-InvOf:ObjectPropertyName)
+    * hasGender,Person,Gender,Func
+    * hasChild,Person,Person,InvOf:hasParent
+    *
+    * FileName : DataProperties
+    * Format : DataPropertyName, DomainName, RangeDataType
+    * fullName,Person,string
+    * ID,Person,int
+    *
+    * FileName : Individuals
+    * Format : ClassName, IndividualName
+    * Gender,Female
+    * Gender,Male
+    * Person,Mary
+    *
+    * FileName : Triplets
+    * Format : SubjectIndividual, ObjectPropertyName, SubjectIndividual, PropertyType (Obj/Data)
+    * Mary,hasGender,Female,Obj
+    * Mary,fullName,MaryJost,Data
+    */
 
+    val ontologyName = "mental_health"
+    val ontologyFolder = "mental_data"
 
-    /**
-      * File Format
-      *
-      * FileName : Classes
-      * Format : ListOfClassNames
-      * Person
-      * Ethnicity
-      * Gender
-      *
-      * FileName: SubClasses
-      * Format : ClassName,SubClassName
-      * Person,Daughter
-      * Person,Parent
-      * Person,OffSpring
-      * Person,Son
-      * Person,Mother
-      * Person,Father
-      *
-      * FileName: ObjectProperties
-      * Format : ObjectPropertyName, DomainName, RangeName, ObjectPropertyType (Functional-Func, InverseOf-InvOf:ObjectPropertyName)
-      * hasGender,Person,Gender,Func
-      * hasChild,Person,Person,InvOf:hasParent
-      *
-      * FileName : DataProperties
-      * Format : DataPropertyName, DomainName, RangeDataType
-      * fullName,Person,string
-      * ID,Person,int
-      *
-      * FileName : Individuals
-      * Format : ClassName, IndividualName
-      * Gender,Female
-      * Gender,Male
-      * Person,Mary
-      *
-      * FileName : Triplets
-      * Format : SubjectIndividual, ObjectPropertyName, SubjectIndividual, PropertyType (Obj/Data)
-      * Mary,hasGender,Female,Obj
-      * Mary,fullName,MaryJost,Data
-      */
-
-
-
-
-    val ONTOLOGYURI="http://www.semanticweb.org/mayanka/ontologies/2017/6/"
+    val ONTOLOGYURI="http://www.semanticweb.org/djyuhn/ontologies/2018/10/"
 
     val manager = OWLManager.createOWLOntologyManager
     //creating ontology manager
     val df = manager.getOWLDataFactory //In order to create objects that represent entities
 
-    val ontology = manager.createOntology(IRI.create(ONTOLOGYURI,"family#"))
+    val ontology = manager.createOntology(IRI.create(ONTOLOGYURI,ontologyName + "#"))
     //Prefix for all the entities
-    val pm = new DefaultPrefixManager(null, null, ONTOLOGYURI+"family#")
+    val pm = new DefaultPrefixManager(null, null, ONTOLOGYURI + ontologyName + "#")
 
 
     // Declaration Axiom for creating Classes
-    val classes=Source.fromFile("data/Classes").getLines()
+    val classes=Source.fromFile(ontologyFolder + "/Classes").getLines()
 
     classes.foreach(f=>{
       val cls = df.getOWLClass(f, pm)
@@ -78,7 +76,7 @@ object OntContructorMain {
     })
 
     // Creating SubClassOfAxiom
-    val subClasses=Source.fromFile("data/SubClasses").getLines()
+    val subClasses=Source.fromFile(ontologyFolder + "/SubClasses").getLines()
 
     subClasses.foreach(f=>{
       val farr=f.split(",")
@@ -92,7 +90,7 @@ object OntContructorMain {
 
 
     //Creating Object Properties
-    val objprop=Source.fromFile("data/ObjectProperties").getLines()
+    val objprop=Source.fromFile(ontologyFolder + "/ObjectProperties").getLines()
     objprop.foreach(f=> {
       val farr=f.split(",")
       val domain = df.getOWLClass(farr(1), pm)
@@ -125,7 +123,7 @@ object OntContructorMain {
     })
 
 
-    val dataprop=Source.fromFile("data/DataProperties").getLines()
+    val dataprop=Source.fromFile(ontologyFolder + "/DataProperties").getLines()
 
     dataprop.foreach(f=>{
       val farr=f.split(",")
@@ -153,7 +151,7 @@ object OntContructorMain {
 
 
     //Creating NamedIndividuals using ClassAssertionAxiom
-    val individuals=Source.fromFile("data/Individuals").getLines()
+    val individuals=Source.fromFile(ontologyFolder + "/Individuals").getLines()
 
     individuals.foreach(f=>{
       val farr=f.split(",")
@@ -163,7 +161,7 @@ object OntContructorMain {
       manager.addAxiom(ontology, classAssertion)
     })
 
-    val triplets=Source.fromFile("data/Triplets").getLines()
+    val triplets=Source.fromFile(ontologyFolder + "/Triplets").getLines()
     triplets.foreach(f=>{
       val farr=f.split(",")
       val sub = df.getOWLNamedIndividual(farr(0), pm)
@@ -184,12 +182,10 @@ object OntContructorMain {
         }
     })
 
-    val os = new FileOutputStream("data/family.owl")
+    val os = new FileOutputStream(ontologyFolder + "/" + ontologyName + ".owl")
     val owlxmlFormat = new OWLXMLDocumentFormat
     manager.saveOntology(ontology, owlxmlFormat, os)
     System.out.println("Ontology Created")
-
-
 
   }
 

@@ -1,0 +1,7 @@
+Triplet
+Gene
+Disease
+Chemical
+Species
+Mutation
+Other
